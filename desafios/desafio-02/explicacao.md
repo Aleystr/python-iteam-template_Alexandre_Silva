@@ -1,13 +1,13 @@
 # Explicação — Desafio 02 — Calculadora de IMC
 
-**Aluno:** _(seu nome)_
-**Data:** _(data)_
+**Aluno:** _(Alexandre Silva da Conceição)_
+**Data:** _(21-05-2026)_
 
 ---
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz.)_
+_()_
 
 ---
 
@@ -15,7 +15,7 @@ _(Descreva em suas palavras o que cada parte do código faz.)_
 
 > Por que é necessário usar `float()` ao capturar peso e altura com `input()`? O que aconteceria se usássemos `int()` para a altura `1.75`?
 
-_(Sua resposta aqui — use suas próprias palavras.)_
+_(Por conta da altura ser um valor decimal, o que a faz se encaixar no tipo float. Caso fosse int o valor retornaria 2 (1,75 arrendondado.))_
 
 ---
 

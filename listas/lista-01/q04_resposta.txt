@@ -17,5 +17,15 @@ Qual é o valor final de total? O que o código calcula?
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(valor de total para i = 1 -> total = 1
+ valor de total para i = 2 -> total = 0
+ valor de total para i = 3 -> total = 1
+ valor de total para i = 4 -> total = 0
+ valor de total para i = 5 -> total = 1
+ valor de total para i = 6 -> total = 0
+ 
+ O codigo faz um laço for que quando o condicional 
+ atende ao requisito (o quociente da conta for diferente de 0)
+ incrementa +1 no valor da variavel total.
+ )
 

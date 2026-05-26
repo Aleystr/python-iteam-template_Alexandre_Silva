@@ -1,6 +1,6 @@
 Lista 01 — Questão 01: Modelo de Memória
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Alexandre Silva da Conceição)
+Data:  (21-05-2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -19,5 +19,13 @@ Código:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(a = [10,20,30,40]
+ b = [10,20,30,40]
+ c = [10,20,30,40,99]
+ 
+ quando b aponta para a variável a, na verdade ele
+ está apontando para o mesmo objeto de a, no caso o vetor.
+ Assim ao adicionar com o append() muda o objeto para qual
+ ambas as variáveis apontam, por isso  o vetor de a se
+ torna [10,20,30,40])
 

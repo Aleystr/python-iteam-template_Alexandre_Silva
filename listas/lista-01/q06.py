@@ -11,3 +11,16 @@
 # Ao aceitar: 'Senha válida após X tentativa(s).'
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
+
+while True:
+    senha = input('Digite uma senha: ')
+    if len(senha) < 8:
+        print('Senha deve ter no mínimo 8 caracteres.')
+        continue
+    if not any(char.isdigit() for char in senha):
+        print('Senha deve conter pelo menos um dígito especial.')
+        continue
+    if not any(char.isupper() for char in senha):
+        print('Senha deve conter pelo menos uma letra maiúscula.')
+        continue
+    print('Senha válida após X tentativa(s).')

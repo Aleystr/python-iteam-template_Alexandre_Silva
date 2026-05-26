@@ -1,7 +1,7 @@
 # Explicação — Desafio 03 — Sistema de Multas
 
-**Aluno:** _(seu nome)_
-**Data:** _(data)_
+**Aluno:** _(Alexandre Silva da Conceição)_
+**Data:** _(21-05-2026)_
 
 ---
 

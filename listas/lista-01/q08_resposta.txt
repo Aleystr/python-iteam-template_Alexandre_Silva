@@ -11,5 +11,11 @@ Em que situação é correto usar is em código profissional?
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(O is' faz uma comparação com base em uma lógica, enquanto o '==' compara se duas variáveis possuem o mesmo valor
+
+ por exemplo: if CEP isupper() -> verifica se o CEP e capitalizado(maiusculo)
+              if entrada == senha -> verifica se ambos possuem o mesmo valor  
+
+ Usado principalmente para fazer validações.
+)
 

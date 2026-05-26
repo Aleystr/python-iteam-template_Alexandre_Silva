@@ -17,5 +17,10 @@ Responda por raciocínio ANTES de executar. Depois confirme no REPL.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(1 - tipo: float, valor: 5.0,
+ 2 - tipo: inteiro, valor: 5,
+ 3 - tipo: inteiro, valor: 4,
+ 4 - tipo: booleano, valor: false,
+ 5 - tipo: booleano, valor: True,
+ 6 - tipo: booleano, valor: true)
 

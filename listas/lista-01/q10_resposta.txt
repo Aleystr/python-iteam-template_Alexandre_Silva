@@ -19,5 +19,9 @@ Dica: há um problema em: (1) definição da função, (2) como o loop é escrit
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+((1) --> Listas são mutaveis, ao atribuir None garantimos que toda vez que a funcao é chamada crie-se um novo objeto
+ (2) --> for aluno in alunos percorre lista diretamente ao inves de criar indices, quando é necessario apenas 
+         percorrer os itens de uma lista, essa sintaxe é melhor.
+ (3) --> A maneira antiga criava uma lista toda vez que passava por um objeto, com o append o python modifica a lista
+         sem precisar copiar de uma e criar outra. )
 
