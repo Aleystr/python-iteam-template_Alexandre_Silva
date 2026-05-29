@@ -12,3 +12,19 @@
 # 'cidadãs de primeira classe' em Python.
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
+def aplicar(lista,funcao):
+    return [funcao(elemento) for elemento in lista] 
+
+def quadrado(x):
+    return x ** 2
+
+def odd(x):
+    return x % 2 == 0
+
+numeros = [1,2,3,4,5]
+
+resultado_quadrado = aplicar(numeros, quadrado)
+resultado_par = aplicar(numeros, odd)
+
+print("Quadrado: " ,resultado_quadrado,
+      ", é par: ", resultado_par)

@@ -13,3 +13,19 @@
 # digitadas pelo usuário.
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
+import q06_estatisticas as est
+
+notas = []
+
+print("Digite 10 notas: ")
+
+for i in range(10):
+    nota = float(input(f"Nota {i + 1}: "))
+    notas.append(nota)
+
+print("\nResultados:" )
+
+print("Media: ", est.media(notas))
+print("Mediana: ", est.mediana(notas))
+print("moda: ", est.moda(notas))
+print("Desvio padrao: ", est.desvio_padrao(notas))

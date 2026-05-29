@@ -13,3 +13,56 @@
 # digitadas pelo usuário.
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
+import math
+
+def media(dados):
+    if not dados:
+        raise ValueError("A lista nao pode estar vazia")
+    
+    resultado = sum(dados)/len(dados)
+    return round(resultado, 2)
+
+def mediana(dados):
+    if not dados:
+        raise ValueError ("A lista nao pode estar vazia")
+    
+    dados_ordenados =sorted(dados)
+    n = len(dados_ordenados)
+    meio =  n//2
+
+    if n % 2 == 0:
+        resultado = (dados_ordenados[meio -1] + dados_ordenados[meio]) / 2
+    else:
+        resultado = dados_ordenados[meio]
+
+    return round(resultado, 2)
+
+def moda(dados):
+    if not dados:
+        raise ValueError("A lista nao pode estar vazia.")
+    
+    frequencia = {}
+
+    for valor in dados:
+        frequencia[valor] = frequencia.get(valor,0) + 1
+
+    maior_freq = max(frequencia.values())
+
+    for valor, freq in frequencia.items():
+        if freq == maior_freq:
+            return round(valor, 2)
+        
+def desvio_padrao(dados):
+    if not dados:
+        raise ValueError("A lista nao pode estar vazia.")
+    
+    m = media(dados)
+
+    soma = 0
+    for valor in dados:
+        soma += (valor -m) ** 2
+
+    variancia = soma/ len(dados)
+    resultado = math.sqrt(variancia)
+
+    return round(resultado, 2)

@@ -15,5 +15,8 @@ Em q05_resposta.txt: explique o que significa dizer que funções são
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(Serem chamadas de cidadãs de primeira classe se dá
+ por conta de poderem ser armazenadas em variaveis, 
+ podem ser usadas como parametro para outra funcao e
+ alem disso podem ser armazenadas em lista e dicts)
 

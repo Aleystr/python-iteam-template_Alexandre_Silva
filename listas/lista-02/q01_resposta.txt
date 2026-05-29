@@ -17,5 +17,13 @@ Depois execute e confirme.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(linha 1 --> dados = nome["Ana"], notas[8.0, 7.5, 9.0]
+ linha 2 --> dados = nome["Ana"], notas[8.0, 7.5, 9.0, 6.5]
+ linha 3 --> media = (8.0 + 7.5 + 9.0 + 6.5)/4
+ linha 4 --> dados[7,75] = arredonda(media, levando em conta duas casas decimais) --> dados["notas"] = 7.75
+ linha 5 --> chaves = [nome, nota, media]
+
+ no fim, dados = nome: ["Ana"],
+                 notas: [8.0, 7.5, 9.0, 6.5]
+                 media: [7.75] 
 

@@ -22,5 +22,7 @@ Explique a regra de escopo (LEGB) que determina cada resultado.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(a) imprime: 'enclosing', pois segundo a LEGB, os locals são os primeiros a serem usados, como não a há local vai para o enclosing.
+(b) imprime: 'enclosing', pois é o local de externa.
+(c) imprime: 'global', pois aceessa o local de 'print(x)'
 

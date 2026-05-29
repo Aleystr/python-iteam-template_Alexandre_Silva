@@ -21,7 +21,7 @@ for i in range(10):
                 break
         except ValueError:
             print("Entrada inválida. Digite um número válido.")
-
+        
 maior_nota = max(notas)
 menor_nota = min(notas)
 media = sum(notas)/len(notas)

@@ -14,5 +14,8 @@ Para cada cenário, indique a estrutura mais adequada (list/tuple/dict/set) e ju
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
-
+((a) Tupla, pois é fixa e permite valores duplicadas, o que pode em sistemas de Coordenadas
+(b) set, pois não permite que haja valores duplicados
+(c) dict, pois o nome do produto leva a key e o seu preço leva o valor
+(d) list, pois é uma estrutura que permite mudanças e adições 
+(e) tuple, pois a ordem importa e os valore são fixos)
