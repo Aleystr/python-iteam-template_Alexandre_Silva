@@ -1,13 +1,13 @@
 # Explicação — Desafio 04 — Tabuada Personalizada
 
-**Aluno:** _(seu nome)_
-**Data:** _(data)_
+**Aluno:** _(Alexandre Silva da Conceição)_
+**Data:** _(29/05/26)_
 
 ---
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz.)_
+_()_
 
 ---
 
