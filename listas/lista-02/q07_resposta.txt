@@ -12,5 +12,7 @@ Leia a classe ContaBancaria do enunciado e responda SEM executar:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(a = O valor de saldo é guardado na memoria do objeto enquanto ele existir.
+ b = O if cai error, acusa erro de valor e printa a mensagem "Saldo Insuficiente"
+ c = return f"{self.titular} numero da conta:{self.numero}")
 

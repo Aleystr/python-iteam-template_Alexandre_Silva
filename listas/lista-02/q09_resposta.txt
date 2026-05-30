@@ -15,5 +15,13 @@ Em q09_resposta.txt: explique a diferença entre _atributo e __atributo em Pytho
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(Diferentemente de outras linguagens de programação, em python a questão de visibilidade
+ de atributos funciona por meio de nomeclatura e recursos da linguaem por exemplo:
+ 
+ _atributo -> apenas sinaliza que o atributo nao deve ser manipulado fora da classe,
+ porem isso nao impede a manipulação atributo.
+ 
+ __atributo -> possui um mecanismo interno na linguagemq que altera o nome do atributo
+  da classe fazendo com que ao tentar acessar esse atributo, ocorre um erro informando
+  que o atributo não existe. )
 
